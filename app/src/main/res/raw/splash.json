@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1026404164844",
+    "project_id": "ulduz-sproject",
+    "storage_bucket": "ulduz-sproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026404164844:android:7332ab8bd8f773ee56b1c9",
+        "android_client_info": {
+          "package_name": "com.app.hometask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiIfdlKmnKen8ZcjRWn4cDKQxSnt8dnyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026404164844:android:695ef58d1c2df54456b1c9",
+        "android_client_info": {
+          "package_name": "com.ulduzis.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiIfdlKmnKen8ZcjRWn4cDKQxSnt8dnyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,6 +8,7 @@ plugins {
     id("androidx.navigation.safeargs")
     id("com.google.dagger.hilt.android")
     id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -31,6 +32,10 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+        buildFeatures {
+            viewBinding = true
+            dataBinding = true
         }
     }
     compileOptions {
@@ -59,11 +64,11 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.46")
     kapt("com.google.dagger:hilt-android-compiler:2.46")
 
-    implementation("androidx.lifecycle:lifecycle-view-model-ktx:2.6.2")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
-
 
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+
+    implementation("com.google.firebase:firebase-crashlytics")
+    implementation("com.google.firebase:firebase-analytics")
 
     implementation("com.google.firebase:firebase-auth")
     implementation("com.airbnb.android:lottie:6.3.0")
